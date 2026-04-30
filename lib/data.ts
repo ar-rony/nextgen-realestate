@@ -42,6 +42,14 @@ let listings: Listing[] = [
     description: 'Energy efficient, 2 years old.',
     image: 'https://picsum.photos/seed/fridge/400/300',
   },
+  {
+    id: 5,
+    type: 'appliance',
+    title: 'Electric Sub station',
+    price: 9000,
+    description: 'Energy efficient, 2 years old.',
+    image: 'https://picsum.photos/seed/fridge/400/300',
+  },
 ];
 
 export function getListings(type?: ListingType): Listing[] {
